@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="/style.css" />
+		<title>Salesforce Opportunities</title>
+	</head>
+
+	<body>
+		<div class="container">
+			<form action="#">
+				<img
+					src="/img/salesforce-logo.png"
+					alt="salesforce"
+					id="salesforceimg"
+				/>
+				<br /><br />
+				<div class="input">
+					<input type="checkbox" name="particular" /> Particular <br />
+					<br />
+					<label for="name">Nome da Oportunidade</label><br />
+					<input
+						type="text"
+						name="name"
+						id="name"
+						placeholder="Digite o nome da oportunidade"
+					/>
+					<br />
+					<label for="valor">Valor:</label> <br />
+					<input
+						type="number"
+						name="valor"
+						id="valor"
+						placeholder="Digite o valor da oportunidade"
+					/>
+					<br />
+					<br />
+					<label for="fase">Fase:</label>
+					<select name="fase" id="fase">
+						<option value="Prospecting">Prospecting</option>
+						<option value="Qualification">Qualification</option>
+						<option value="Need Analysis">Need Analysis</option>
+						<option value="Value Proposition">Value Proposition</option>
+						<option value="Id. Decision Makers">Id. Decision Makers</option>
+						<option value="Perception Analysis">Perception Analysis</option>
+						<option value="Proposal/Price Quote">Proposal/Price Quote</option>
+						<option value="Negotiation/Review">Negotiation/Review</option>
+						<option value="Closed Won">Closed Won</option>
+						<option value="Closed Lost">Closed Lost</option>
+					</select>
+					<br />
+					<br />
+					<label for="tipo">Tipo:</label>
+					<select name="tipo" id="tipo">
+						<option value="Existing Customer - Upgrade">
+							Existing Customer - Upgrade
+						</option>
+						<option value="Existing Customer - Replacement">
+							Existing Customer - Replacement
+						</option>
+						<option value="Existing Customer - Downgrade">
+							Existing Customer - Downgrade
+						</option>
+						<option value="New Customer">New Customer</option>
+					</select>
+				</div>
+				<br />
+				<br />
+				<div class="oportunidadebtn">
+					<button><a href="/index.html">Criar Oportunidade</a></button>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
